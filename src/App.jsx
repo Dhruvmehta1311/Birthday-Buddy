@@ -40,7 +40,7 @@ function Main() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-purple-100">
-      <div className="bg-white  shadow-lg w-[550px] max-w-[90%] p-6  my-20">
+      <div className="bg-white rounded-md shadow-2xl w-[550px] max-w-[90%] p-6  my-16">
         <h1 className="font-medium text-3xl">
           {birthdays.length} Birthdays Today
         </h1>
