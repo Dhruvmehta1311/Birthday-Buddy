@@ -61,7 +61,6 @@ function Main() {
 }
 
 function Birthdays({ birthdaysObj }) {
-  // console.log(birthdaysObj);
   return (
     <div>
       <div className="p-4 flex gap-2">
