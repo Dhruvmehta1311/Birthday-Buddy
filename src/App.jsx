@@ -32,7 +32,7 @@ const upcomingBirthdays = [
 
 function Main() {
   const nextbirthdays = upcomingBirthdays;
-  const [birthdays, setBirthdays] = useState(upcomingBirthdays);
+  const [birthdays, setBirthdays] = useState(nextbirthdays);
 
   const clearBirthdays = () => {
     setBirthdays([]);
